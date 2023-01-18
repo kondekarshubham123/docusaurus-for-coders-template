@@ -11,7 +11,7 @@ const config = {
   title: 'Docusaurus for coders',
   tagline: 'Dinosaurs are cool',
   url: 'https://github.com', // Change url with your dns.
-  baseUrl: '/',
+  baseUrl: '/docusaurus-for-coders-template/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
