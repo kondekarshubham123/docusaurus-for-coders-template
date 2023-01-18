@@ -43,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/kondekarshubham123/docusaurus-for-coders-template',
+            'https://github.com/kondekarshubham123/docusaurus-for-coders-template/blob/main/',
         },
         // blog: {
         //   showReadingTime: true,
@@ -77,7 +77,7 @@ const config = {
           },
           {
             label: 'Solutions',
-            to: '/solutions/category/0000---0099/two-sum',
+            to: '/solutions/category/0000---0099',
             activeBaseRegex: `/solutions/`,
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
@@ -172,6 +172,18 @@ const config = {
     }),
 
     plugins: [
+      [
+        '@docusaurus/plugin-content-docs',
+        {
+          id: 'solutions',
+          path: 'solutions',
+          routeBasePath: 'solutions',
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl:
+            'https://github.com/kondekarshubham123/docusaurus-for-coders-template/tree/main/'
+        }
+      ]
+
     ]
 };
 
