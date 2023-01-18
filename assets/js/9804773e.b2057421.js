@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus_for_coders_template=self.webpackChunkdocusaurus_for_coders_template||[]).push([[6592],{8425:s=>{s.exports=JSON.parse('[{"label":"Array","permalink":"/solutions/tags/array","count":1},{"label":"Two Pointer","permalink":"/solutions/tags/two-pointer","count":1},{"label":"Hash Table","permalink":"/solutions/tags/hash-table","count":1}]')}}]);
